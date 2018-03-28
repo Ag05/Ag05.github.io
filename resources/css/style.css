@@ -1,6 +1,6 @@
 #Ag05{
-  position: fixed;
-  font-family: monospace;
+  position: static;
+  font-family: sans-serif, monospace;
   font-weight: bolder;
   color: slategray;
   background-color: DarkBlue;
@@ -8,6 +8,8 @@
   font-size: 300px;
   padding: 20 px;
   border: 5px dotted black;
+  border-radius: 25%;
+  z-index: 0;
 }
 
 .box{
@@ -26,4 +28,18 @@
   display: flex;
   border: 5px solid black;
   justify-content: space-between;
+}
+
+// Creating boxes for know Proggraming Languages
+//Anything 'black' is temp
+.prog_langs{
+  background-color: black;
+  border: 2px solid black;
+  width: ;
+  height: ;
+  font: ;
+
+  display: ;
+  justify-content: ;
+  z-index: ;
 }
